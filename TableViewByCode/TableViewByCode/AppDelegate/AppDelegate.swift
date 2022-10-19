@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /// Added landing view controller as navigation root view controller
     window = UIWindow(frame: UIScreen.main.bounds)
     
-    let landingViewController = LandingViewController()
+    let landingViewModel = LandingViewModel()
+    let landingViewController = LandingViewController(viewModel: landingViewModel)
     
     window?.rootViewController = UINavigationController(rootViewController: landingViewController)
     window?.makeKeyAndVisible()

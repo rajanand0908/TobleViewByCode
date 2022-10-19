@@ -16,6 +16,7 @@
 		BEADF66C28F71C1700B2F5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADF66B28F71C1700B2F5AA /* AppDelegate.swift */; };
 		BEADF67528F71C1B00B2F5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEADF67428F71C1B00B2F5AA /* Assets.xcassets */; };
 		BEADF67828F71C1B00B2F5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEADF67628F71C1B00B2F5AA /* LaunchScreen.storyboard */; };
+		BED4C8BC29005AD400A7F31A /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4C8BB29005AD400A7F31A /* LandingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BEADF67428F71C1B00B2F5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEADF67728F71C1B00B2F5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEADF67928F71C1B00B2F5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED4C8BB29005AD400A7F31A /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				BE84B5D228FDB1DB0070EF8B /* LandingView */,
 				BE84B5D028FDB1D30070EF8B /* LandingViewController.swift */,
+				BED4C8BB29005AD400A7F31A /* LandingViewModel.swift */,
 			);
 			path = LandingScreen;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				BE84B5DD28FDB4D70070EF8B /* ViewController.swift in Sources */,
 				BE84B5DF28FDB5730070EF8B /* CustomViewController.swift in Sources */,
+				BED4C8BC29005AD400A7F31A /* LandingViewModel.swift in Sources */,
 				BE84B5D828FDB2F70070EF8B /* ViewContainer.swift in Sources */,
 				BE84B5D428FDB1ED0070EF8B /* LandingView.swift in Sources */,
 				BE84B5DA28FDB35E0070EF8B /* UIView+Extension.swift in Sources */,
